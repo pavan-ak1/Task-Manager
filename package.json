@@ -1,0 +1,20 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "This basically similar to a To-do list app in which a user can add, edit and delete or destroy tasks as when the user wants. This doesnot store in local storage but the storage is done by communicating with cloud database and sending data to cloud. \r This Task Manager can edit task and add its names like 'old task' and add a check box that the task has already completed.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
